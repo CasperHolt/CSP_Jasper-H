@@ -11,7 +11,10 @@
 #print(70%8) #caled modulo/modulus/MOD returns the remainder
 
 num=4
-print(num)
+#print(num)
 
 num+=1
-print (num)
+#print (num)
+pi= 3.1415
+ #print(round(pi,2))
+ print(f"{pi:.4f}")
