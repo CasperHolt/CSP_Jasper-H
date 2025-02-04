@@ -1,4 +1,4 @@
-#Jasper Holt VAriable
+#Jasper Holt Variable
 
 
 
