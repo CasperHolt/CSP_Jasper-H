@@ -1,4 +1,4 @@
-#Jasper Holt Variable
+#Jasper Holt, Variable notes
 
 
 
