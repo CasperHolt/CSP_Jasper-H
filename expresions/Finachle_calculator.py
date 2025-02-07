@@ -27,14 +27,17 @@ perc_groce= groce/income*100
 perc_trans= trans/income*100
 #calculate percent income of spending (spending/income*100) (variable)
 perc_spend= spend/income*100
+#calculate percent income of saveings
+perc_save= save/income*100
 #your rent is $xx.xx which is xx5 of your income. (print)
-print ("your rent is $",rent,"wich is",perc_rent,"percent of your income")
+print ("your rent is $",round(rent,2),"wich is",round(perc_rent,2),"percent of your income\n")
 #your utilities is $xx.xx which is xx5 of your income. (print)
-print ("your utilities are $",utilt, "wich is",perc_utilt,"percent ofyour income")
+print ("your utilities are $",round(utilt,2), "wich is",round(perc_utilt,2),"percent ofyour income\n")
 #your grocries is $xx.xx which is xx5 of your income. (print)
-print ("your groceries are $",groce,"wich is",perc_groce,"percent of you income")
+print ("your groceries are $",round(groce,2),"wich is",round(perc_groce,2),"percent of you income\n")
 #your transportaition is $xx.xx which is xx5 of your income. (print)
-print ()
+print ("you spend $",round(trans,2),"on transportaition wich is",round(perc_trans,2),"percent of your income\n")
 #your saveins is $xx.xx which is xx5 of your income. (print)
-
+print ("you save $",round(save,2),"each moth wich is",round(perc_save,2),"percent of your income\n")
 #your spendings is $xx.xx which is xx5 of your income. (print)
+print ("you spend $",round(spend,2),"wich is",round(perc_spend,2),"percent of your income\n")
