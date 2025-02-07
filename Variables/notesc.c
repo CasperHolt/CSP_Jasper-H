@@ -8,6 +8,6 @@ float pi;
 int main(void){
   // printf("hello world");
    printf("wlecome, what is your name: \n");
-   scanf("%s, name")
+   scanf("%s", name);
     return 0;
 }
