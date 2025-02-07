@@ -10,6 +10,7 @@ float expression6=-1*((3-4*7)/5)-2*24/6;
 float expression7=(3*(int)pow(5,2)/15)-(5-pow(2,2));
 float expression8=((int)pow(1,4)*pow(2,2)+pow(3,3))-pow (2,5)/4;
 float expression9=(int)pow(22/2-2*5,2)+pow(4-6/6,2);
+
 int main(void){
    printf("%f \n",expression1);
    printf("%f \n",expression2);
