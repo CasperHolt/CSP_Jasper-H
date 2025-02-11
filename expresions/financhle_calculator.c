@@ -32,6 +32,31 @@ printf("how much do you spend of transpotaition\n");
 
 scanf("%f",&trans);
 
+float spend= income - save - rent - utilt - groce- trans;
+
+float perc_rent= rent/income*100;
+
+float perc_utilt= utilt/income*100;
+
+float perc_groce= groce/income*100;
+
+float perc_trans= trans/income*100;
+
+float perc_spend= spend/income*100;
+
+float perc_save= save/income*100;
+
+printf ("your rent is $%.2f wich is %.2f %% of your income\n",rent,perc_rent);
+
+printf ("your utilities are $%.2f wich is %.2f %% ofyour income\n",utilt,perc_utilt);
+
+printf ("your groceries are $%.2f wich is %.2f %% of you income\n",groce,perc_groce);
+
+printf ("you spend $%.2f on transportaition wich is %.2f %% of your income\n",trans,perc_trans);
+
+printf ("you save $%.2f each moth wich is %.2f %% of your income\n",save,perc_save);
+
+printf ("you spend $%.2f wich is %.2f %% of your income\n",spend,perc_spend);
 
  //ask what income is (varible that should be an input)
     return 0;
