@@ -8,9 +8,10 @@ char name[10];
 int main(void){
 printf("what is your first name\n");
 scanf("%s",name);
-    
+
+strcat(name,two);    
 strcat(one,name);
-strcat(one,two);
+
 printf("%s\n",one);
    
     return 0;
