@@ -1,6 +1,6 @@
 // Jasper Holt, silly senteces
 #include <stdio.h>
-// eptey variables for 3 words
+// emptey variables for 3 words
 
 int main(void){
 //welcome or intriduction(print)
