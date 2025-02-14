@@ -22,7 +22,7 @@ scanf("%s",monster);
 printf("pleas tell us how tall you are in one number ex: six_foot \n");
 scanf("%s",tall);
 
-printf("you have awakend the %s. You look as its hoard of %s gems glisten in the light of your torch. You wacth as the beast rises to its \nfull hight towering over your %s height. The beast lunges at you and you take 12 %s",monster,color,tall,damage);
+printf("you have awakend the %s. You look as its hoard of %s gems glisten in the light of your torch. You wacth as the beast rises to its \nfull hight towering over your %s height. The beast lunges at you and you take 12 %s damage",monster,color,tall,damage);
 //print out our stroy with the variables inserted.("welcome%s to my program", name)
 
     return 0;
