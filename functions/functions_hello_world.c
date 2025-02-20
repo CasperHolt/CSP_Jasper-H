@@ -10,7 +10,7 @@ printf("Hello %s",name);
 int main(void) {
     due("Jhon\n");
     due("Dante\n");
-    due("Dian\n");
+    due("Diane\n");
     due("Ben\n");
     due("Aurathar\n");
 
