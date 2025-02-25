@@ -57,16 +57,19 @@ elif not num<10:#checking to se if statment is false
 #8.What are logical operators for?
 #making our statments more complex
 
-#What does a nested conditional statement do?
+#9.What does a nested conditional statement do?
+# acondititnal that exisitst inside another conditinal(shouldent go past 3)
 if num<10:
-    if num==8:
-        print("this prints at lest 8")
+    if num==4:
+        print("there are only enough cookies 4 me ... sorry")
     else:
-    print("the numberis less than 8")
-#How do you write an if statement in C?
+        print("the numberis less than 4")
+else:
+    print("there are more than 4")
+#10.How do you write an if statement in C?
+ 
+#11.How do you write else statements in C?
 
-#How do you write else statements in C?
+#12.How do you write elif/ else if statements in C?
 
-#How do you write elif/ else if statements in C?
-
-#How do you write the 3 logical operators in C?\
+#13.How do you write the 3 logical operators in C?\
