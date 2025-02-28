@@ -10,7 +10,7 @@ int main(void){
         printf("You are old enough to drive");
     }else if (age==15){
         printf("you are old enough to get your learners permit");
-    }else if (age>=6){
+    }else if (age=6){
         printf("you can go to school");
     }else{
         printf("you are so small");
