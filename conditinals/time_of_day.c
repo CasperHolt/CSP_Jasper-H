@@ -1,0 +1,35 @@
+// Jasper Holt, getting the time
+#include <stdio.h>
+#include <time.h>
+
+int main(void){
+    //this is time since jan 1 1970
+   time_t seconds;
+
+    seconds = time(NULL);
+    //printf("seconds since jan 1, 1970 = %d\n", seconds);
+
+    //curent time
+    time_t rawtime;
+    struct tm * timeinfo;
+
+    time(&rawtime);
+    timeinfo= localtime(&rawtime);
+
+    //printf("current time and date is %s\n",asctime(timeinfo));
+
+    //curent hour
+    time_t now = time(NULL);
+
+    struct tm*tm_struct= localtime(&now);
+    int hour = tm_struct->tm_hour;//military time!
+    printf("%d\n",hour);
+    if(hour>=18){
+        printf("good evening");
+    }else if(hour >= 12){
+        printf("good afteernoon");
+    }else{
+        printf("good moning");
+    }
+    return 0;
+}
