@@ -18,5 +18,9 @@ now= time.ctime(curent)
 local_time=time.localtime(curent)
 day= local_time.tm_wday
 hour=local_time.tm_hour#military time (0-23)
-if hour==12:
-    print("good evening")
+if hour>=18:
+    print("good eavning")
+elif hour >=12:
+    print("good afternoon")
+else:
+    print("good morning")
