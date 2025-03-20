@@ -5,11 +5,11 @@ int main(void){
     
     while (x < 51){
     if (x%3==0 && x%5==0){
-        printf("fizzBuzz");
+        printf("fizzBuzz\n");
     }else if (x%3==0){
-        printf("fizz");
+        printf("fizz\n");
     }else if (x%5==0){
-        printf("Buzz");
+        printf("Buzz\n");
     }else{
         printf("%d\n",x);
     }
