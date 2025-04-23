@@ -1,14 +1,28 @@
-*{
+body{
 background-color:white;
-color:brown;
-font-family:sans-serif;
+
+font-family:papyrus;
 }
-p{
-    background-color: antiquewhite;
+div{    /*what color is complematary to blue*/
     height: 150px;
     width:150px;
     padding:10px;
     margin:2px;
+}
+#box_one{
+    background-color: blue;
+    color:orange;
+}
+#box_two{
+    /*what color is analogus to blue*/
+    background-color: green;
+    color:blue;
+    border:6px solid violet;
+}
+#box_Three{    /*what colors are triadic to blue*/
+    background-color: red;
+    color:blue;
+    border: 6px solid yellow;
 }
 #content{
     display: grid;
