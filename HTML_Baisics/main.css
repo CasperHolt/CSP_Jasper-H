@@ -10,7 +10,6 @@ body{
   font-style: normal;
   font-size: 20px;
   margin:30px;
-  
 }
 img{
     width:25%;
@@ -37,5 +36,6 @@ img{
     width:100%;
     padding:8px;
     margin:2px;
+    display: flex;
     justify-content:center;
 }
