@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Show Hidden Paragraph</title>
+</head>
+<body>
+
+<button onclick="showParagraph()">Show Paragraph</button>
+
+<p id="hiddenPara" style="display: none;">
+  This paragraph was hidden but now it's visible!
+</p>
+
+<script>
+  function showParagraph() {
+    document.getElementById("hiddenPara").style.display = "block";
+  }
+</script>
+
+</body>
+</html>

@@ -1,4 +1,4 @@
 
-function hello(){
-    document.getElementById("jokers").
+function showParagraph() {
+  document.getElementById("hiddenPara").style.display = "block";
 }
